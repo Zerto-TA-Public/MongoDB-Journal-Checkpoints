@@ -19,9 +19,8 @@ $ZVMUser = "administrator"
 $ZVMPass = "password"
 
 #Mongo information
-$MongoServer = "172.16.1.76"
+$MongoServer = "172.16.1.96"
 $MongoUser = "justin"
-$MongoPass = "password"
 $privateKey = "C:\id_rsa"
 
 ################ No editing needed below this line ##############
