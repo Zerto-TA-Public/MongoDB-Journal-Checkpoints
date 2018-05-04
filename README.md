@@ -1,3 +1,5 @@
+# This is an old version. A new version that only requires a single BaSH script is available here:
+https://github.com/Zerto-TA-Public/Zerto-MongoDB-Checkpoints-Linux
 # MongoDB-Journal-Checkpoints
 These scripts are used to add a Quiesced User Checkpoint to the Zerto Journal of a MongoDB server. The result is that MongoDB will flush all pending writes to disk, and pause new writes long enough for Zerto to insert a checkpoint into the journal which has all database records.
 
